@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/*  top Nav */
+.topNav .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.79);
+  font-size: 11px;
+}
+.topNav .nav-item .nav-link i {
+  color: rgba(0, 0, 0, 0.79);
+  font-size: 14px;
+}
+/* Top header */
+.top-header span {
+  font-size: 14px;
+  padding: 12px 0;
+  display: inline-block;
+}
