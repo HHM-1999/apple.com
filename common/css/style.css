@@ -7,6 +7,7 @@ a {
   text-decoration: none;
 }
 /*  top Nav */
+
 .topNav .nav-item .nav-link {
   color: rgba(0, 0, 0, 0.79);
   font-size: 11px;
@@ -368,4 +369,14 @@ footer {
 }
 .copyright-list li a:hover {
   text-decoration: underline;
+}
+.slider-img {
+  margin-top: 15px;
+  padding: 0 30px;
+}
+.slider-img img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  overflow-x: hidden;
 }
