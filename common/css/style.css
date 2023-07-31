@@ -359,6 +359,7 @@ footer {
 .links-copyright {
   margin-left: -32px;
   padding-top: 0;
+  padding-bottom: 0;
 }
 .copyright-list li {
   padding-left: 10px;
