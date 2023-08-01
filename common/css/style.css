@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -10,23 +11,45 @@ a {
 
 .topNav .nav-item .nav-link {
   color: rgba(0, 0, 0, 0.79);
-  font-size: 11px;
+  font-size: 12px;
 }
 .topNav .nav-item .nav-link i {
   color: rgba(0, 0, 0, 0.79);
-  font-size: 14px;
+  font-size: 15px;
 }
 /* Top header */
+.nav {
+  padding: 5px 180px 5px;
+}
 .top-header span {
   font-size: 14px;
-  padding: 12px 0px;
+  padding: 12px 12px;
   display: inline-block;
-  margin-left: 170px;
+  margin-left: 180px;
 }
 .top-header-title i {
   font-size: 10px;
   padding: 0 3px;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+  border: none;
+  padding-right: 500px;
+  padding-left: 50px;
+  width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
 /* iPhone 14 pro */
 .content {
   padding-top: 0;
@@ -325,7 +348,7 @@ footer {
   border-top: 1px solid #d2d2d7;
 }
 .directory-col .row {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom: 0;
@@ -374,10 +397,53 @@ footer {
 .slider-img {
   margin-top: 15px;
   padding: 0 30px;
+  position: relative;
+  display: inline-block;
 }
 .slider-img img {
   width: 100%;
-  height: 500px;
+  height: 550px;
   object-fit: cover;
   overflow-x: hidden;
+}
+.btn-slider {
+  z-index: 9999;
+
+  left: 145px;
+  right: 0;
+  top: 262.5em;
+}
+.text-slider {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(50%);
+}
+.text-slider {
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.text-slider span {
+  font-weight: 600;
+}
+.btn-slider {
+  position: absolute;
+  top: 92%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+button {
+  padding: 10px 15px 10px 10px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn-slider button i {
+  color: #000;
+  font-size: 14px;
 }
