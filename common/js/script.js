@@ -1,3 +1,4 @@
+//slider//
 $('.center').slick({
     centerMode: true,
     dots: true,
